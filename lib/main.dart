@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:belajar_flutter/belajar_form/form_screen.dart';
 import 'package:belajar_flutter/container/lat.dart';
 import 'package:belajar_flutter/list_view/contoh_dua.dart';
 import 'package:belajar_flutter/list_view/contoh_empat.dart';
@@ -27,7 +28,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: LatihanProfile());
+        home: BelajarForm());
   }
 }
 
